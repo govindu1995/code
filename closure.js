@@ -17,8 +17,20 @@
 //     },i*1000);
 // }
 
-for (let i=0; i < 4;i++){
-    setTimeout(function (){
-        console.log(i);
-    },i*1000);
+// for (let i=0; i < 4;i++){
+//     setTimeout(function (){
+//         console.log(i);
+//     },i*1000);
+// }
+
+function OuterFunction()
+{ debugger;
+    let outerVariable = 2;
+
+    function innerFunction()
+    {
+        console.log(outerVariable);
+    }
+    innerFunction();
 }
+OuterFunction()
