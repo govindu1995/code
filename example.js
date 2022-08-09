@@ -8,8 +8,6 @@
 // console.log(obj);
 
 
-const arr =['a','b','c','z','h'];
-function sort (a,b){
-  arr.sort(b.localeCompete(a));
-};
-console.log(sort());
+const fruits = ['a','z','c','d','e'];
+const arr =fruits.sort();
+console.log(arr);
