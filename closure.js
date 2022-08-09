@@ -33,4 +33,4 @@ function OuterFunction()
     }
     innerFunction();
 }
-OuterFunction()
+OuterFunction();
