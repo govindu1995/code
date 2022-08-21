@@ -2,11 +2,11 @@
 
 var arr = ['Apple', 'Cat', 'Ball','Elephant','Doll'];
 
-/*var output = arr.sort((a,b)=>{
+/*var output = arr.sort((a,b)=>{ // Normal sort order
     return a-b;
 });*/
 /*temp = 0;
-function sorting (arr){          //
+function sorting (arr){          // two Pointer approach
     for (i=0;i<arr.length;i++){
         for(j=i+1;j<arr.length;j++){
             if (arr[i]>arr[j]){
