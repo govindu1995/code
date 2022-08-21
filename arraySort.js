@@ -1,4 +1,6 @@
-var arr =[1,9,2,8,3,7,4,6,5,33,10];
+// var arr =[1,9,2,8,3,7,4,6,5,33,10];
+
+var arr = ['Apple', 'Cat', 'Ball','Elephant','Doll'];
 
 /*var output = arr.sort((a,b)=>{
     return a-b;
