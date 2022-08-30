@@ -33,5 +33,5 @@ function OuterFunction()
     }
     innerFunction();
 }
-console.log(OuterFunction()); //function calling
+console.log(OuterFunction()); 
 
