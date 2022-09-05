@@ -30,7 +30,7 @@ function swalgo(arr, i, j) {
 
 // Quick Sort 
 
-var arr = [8,4,3,6,2,8,1,7];
+var arr = [7,4,3,6,2,8,1,9];
 
 division(arr, 0, arr.length-1);
 console.log(arr);
